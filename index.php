@@ -7,9 +7,11 @@
     </head>
     <body>
         <form action="actions.php" method="GET">
-            <input>
+            <input type="text" name="first" placeholder="Enter First Number">
+            <input type="text" name="second" placeholder="Enter Second Number">
 
-</form>
+            <button type="submit">Submit</button>
+        </form>
     </body>
 
 </html>
