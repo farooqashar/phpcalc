@@ -12,7 +12,10 @@
     </head>
     <body>
         <form action="actions.php" method="GET">
+
+            <div>
             <input type="text" name="first" placeholder="Enter First Number">
+            </div>
 
             <select name="opt">
                 <label>Select Operation</label>

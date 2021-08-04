@@ -1,4 +1,6 @@
-function calc($first, $opt, $second) {
+<?php
+
+function calculator($first, $opt, $second) {
     $result;
 
     switch ($opt) {
@@ -15,7 +17,7 @@ function calc($first, $opt, $second) {
             $result = $first / $second;
             break;
         default: 
-            $result = "Unable to complete request. Please try again. "
+            $result = "Unable to complete request. Please try again. ";
             break;
     }
     return $result;
@@ -25,4 +27,4 @@ $first = $_GET["first"];
 $opt = $_GET["opt"];
 $second = $_GET["second"];
 
-echo "Value: " . calc($first,$opt,$second);
+echo "Value: " . calculator($first,$opt,$second);
