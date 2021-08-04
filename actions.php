@@ -24,3 +24,5 @@ function calc($first, $opt, $second) {
 $first = $_GET["first"];
 $opt = $_GET["opt"];
 $second = $_GET["second"];
+
+echo "Value: " . calc($first,$opt,$second);
