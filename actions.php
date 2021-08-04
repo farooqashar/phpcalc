@@ -20,3 +20,7 @@ function calc($first, $opt, $second) {
     }
     return $result;
 }
+
+$first = $_GET["first"];
+$opt = $_GET["opt"];
+$second = $_GET["second"];
