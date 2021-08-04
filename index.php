@@ -19,10 +19,11 @@
                 <option value="add">Add</option>
                 <option value="subtract">Subtract</option>
             </select>
-            
+
             <input type="text" name="second" placeholder="Enter Second Number">
 
-            <button type="submit">Submit</button>
+            <button type="submit">Calculate</button>
+            
         </form>
     </body>
 
