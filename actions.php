@@ -15,7 +15,7 @@ function calc($first, $opt, $second) {
             $result = $first / $second;
             break;
         default: 
-            $result = "Unable to complete request."
+            $result = "Unable to complete request. Please try again. "
             break;
     }
 }
