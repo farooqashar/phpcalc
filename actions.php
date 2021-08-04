@@ -18,4 +18,5 @@ function calc($first, $opt, $second) {
             $result = "Unable to complete request. Please try again. "
             break;
     }
+    return $result;
 }
