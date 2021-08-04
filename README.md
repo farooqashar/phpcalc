@@ -16,3 +16,5 @@ git clone https://github.com/farooqashar/phpcalc.git
 ```
 php -S 127.0.0.1:8000
 ```
+
+Locate to `http://localhost:5000/` to see the server running.
