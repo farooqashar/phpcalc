@@ -1,3 +1,21 @@
 function calc($first, $opt, $second) {
-    $sum;
+    $result;
+
+    switch ($opt) {
+        case "add":
+            $result = $first + $second;
+            break;
+        case "subtract":
+            $result = $first - $second;
+            break;
+        case "multiply":
+            $result = $first * $second;
+            break;
+        case "divide":
+            $result = $first / $second;
+            break;
+        default: 
+            $result = "Unable to complete request."
+            break;
+    }
 }
