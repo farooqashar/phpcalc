@@ -13,6 +13,13 @@
     <body>
         <form action="actions.php" method="GET">
             <input type="text" name="first" placeholder="Enter First Number">
+
+            <select name="opt">
+                <label>Select Operation</label>
+                <option value="add">Add</option>
+                <option value="subtract">Subtract</option>
+            </select>
+            
             <input type="text" name="second" placeholder="Enter Second Number">
 
             <button type="submit">Submit</button>
