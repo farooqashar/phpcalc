@@ -36,7 +36,7 @@ echo "
 <center>
 
 <h1 style='color:blue;'>Value: <i>$value</i> </h1>
-<a href='/'><button style='background:blue;color:white;font-size:18px;border: 1px solid transparent;'>Go Back</button></a>
+<a href='/'><button style='background:blue;color:white;border-radius: 4px;font-size:18px;border: 1px solid transparent;padding: 6px 12px;'>Go Back</button></a>
 
 </center>
 
