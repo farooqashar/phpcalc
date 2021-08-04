@@ -30,4 +30,14 @@ $first = $_GET["first"];
 $opt = $_GET["opt"];
 $second = $_GET["second"];
 
-echo "Value: " . calculator($first,$opt,$second);
+$value = calculator($first,$opt,$second);
+echo "
+
+<center>
+
+<h1 style='color:blue;'>Value: <i>$value</i> </h1>
+<a href='/'><button style='background:blue;color:white;font-size:18px;border: 1px solid transparent;'>Go Back</button></a>
+
+</center>
+
+";
