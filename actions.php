@@ -16,6 +16,9 @@ function calculator($first, $opt, $second) {
         case "divide":
             $result = $first / $second;
             break;
+        case "mod":
+            $result = $first % $second;
+            break;
         default: 
             $result = "Unable to complete request. Please try again. ";
             break;

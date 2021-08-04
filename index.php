@@ -11,25 +11,28 @@
 
     </head>
     <body>
+
+    <div class="container">
         <form action="actions.php" method="GET">
 
-            <div>
             <input type="text" name="first" placeholder="Enter First Number">
-            </div>
 
-            <select name="opt">
-                <label>Select Operation</label>
+            <select class="form-select form-select-lg mb-3" name="opt">
+                <option selected>Select Operation</option>
                 <option value="add">Add</option>
                 <option value="subtract">Subtract</option>
                 <option value="multiply">Multiply</option>
                 <option value="divide">Divide</option>
+                <option value="mod">Modulus</option>
+
             </select>
 
             <input type="text" name="second" placeholder="Enter Second Number">
 
-            <button type="submit">Calculate</button>
+            <button class="btn btn-primary" type="submit">Calculate</button>
             
         </form>
+    </div>
     </body>
 
 </html>
