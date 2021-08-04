@@ -1,4 +1,4 @@
-# phpcalc
+# PHPCalc
 
 
 # Basic PHPCalc Site
@@ -13,3 +13,6 @@ git clone https://github.com/farooqashar/phpcalc.git
 
 # Starting Server
 
+```
+php -S 127.0.0.1:8000
+```
