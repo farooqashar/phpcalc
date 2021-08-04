@@ -12,6 +12,9 @@
     </head>
     <body>
 
+    <h1>PHPCalc</h1>
+    <br />
+    <br />
     <div class="container">
         <form action="actions.php" method="GET">
 
